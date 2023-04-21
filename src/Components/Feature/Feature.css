@@ -1,0 +1,15 @@
+.subtitle,
+.feature-title span {
+  color: var(--red-color);
+}
+
+h2.feature-title {
+  line-height: 50px;
+  color: var(--blue-color);
+}
+
+.feature-item p {
+  color: #777;
+  font-size: var(--font-size-medium);
+  line-height: 30px;
+}

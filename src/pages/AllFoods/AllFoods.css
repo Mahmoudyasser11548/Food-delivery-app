@@ -1,0 +1,54 @@
+.searchbar {
+  background-color: var(--lightRed-color);
+  border-radius: var(--border-radius);
+  padding: calc(var(--padding) / 2) var(--padding);
+  cursor: pointer;
+}
+
+.searchbar input {
+  width: 250px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: var(--font-size-medium);
+}
+
+.searchbar input:focus {
+  outline: none;
+}
+
+.searchbar span {
+  width: 20px;
+  text-align: end;
+}
+
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+  list-style: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.paginationBttns a {
+  padding: 5px 13px;
+  background: #212245;
+  color: var(--white) !important;
+  border-radius: calc(var(--border-radius) /2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 5px;
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+.paginationBttns a:hover {
+  background: var(--red-color);
+}

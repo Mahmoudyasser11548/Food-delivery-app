@@ -1,0 +1,19 @@
+.checkout-bill {
+  background: #fde4e4;
+  padding: calc(var(--padding) + 10px);
+}
+
+.checkout-total {
+  border-top: 1px solid #ddd;
+  padding-top: calc(var(--padding) + 10px);
+}
+
+@media only screen and (max-width: 768px) {
+  .checkout-bill h6 {
+    font-size: var(--font-size-normal);
+  }
+
+  .checkout-bill {
+    margin-top: calc(var(--padding) * 2);
+  }
+}

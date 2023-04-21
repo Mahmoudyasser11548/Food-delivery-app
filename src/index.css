@@ -1,0 +1,73 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+
+:root {
+  --blue-color: #212245;
+  --red-color: #df2020;
+  --lightRed-color: #fde4e4;
+  --offwhite-color: #fcfcfc;
+  --white: #fff;
+  --font-family: "Istok Web",
+    sans-serif;
+  --font-family-second: "RocknRoll One",
+    sans-serif;
+  --border-radius: 10px;
+  --padding: 20px;
+  --max-width: 600px;
+  --font-size-normal: 0.8rem;
+  --font-size-medium: 1rem;
+  --font-size-large: 1.3rem;
+  --font-size-xlarge: 2.1rem;
+  --font-weight-bold: 700;
+  --font-weight-semi-bold: 600;
+  --transition: 0.3s
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--offwhite-color);
+  font-family: var(--font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-second);
+}
+
+div>a,
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+h1,
+h2 {
+  font-size: var(--font-size-xlarge);
+  font-weight: var(--font-weight-semi-bold);
+  color: var(--blue-color);
+}
+
+section {
+  padding: calc(var(--padding) * 3) 0px;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: calc(var(--padding) * 2) 0px;
+  }
+
+  h1,
+  h2 {
+    font-size: var(--font-size-large);
+  }
+}

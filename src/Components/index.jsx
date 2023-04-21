@@ -1,0 +1,9 @@
+export { default as Header } from './Header/Header';
+export { default as Footer } from './Footer/Footer';
+export { default as Helmet } from './Helmet/Helmet';
+export { default as Category } from './Category/Category/Category';
+export { default as Feature } from './Feature/Feature';
+export { default as ProductCard } from './ProductCard/ProductCard';
+export { default as FoodCategory } from './Category/FoodCategory/FoodCategory';
+export { default as TestimonialSlider } from './TestimonialSilder/TestimonialSilder';
+export { default as Hero } from './HeroContent/Hero';

@@ -1,0 +1,26 @@
+.catagory-item {
+  background-color: var(--lightRed-color);
+  padding: calc(var(--padding) + 10px) var(--padding);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.catagory-item:hover {
+  transform: translateY(-10px);
+}
+
+@media only screen and (max-width: 768px) {
+  .category__item {
+    padding: var(--padding) calc(var(--padding) + 5px);
+  }
+
+  .category__img img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .category__item h6 {
+    font-size: var(--font-size-normal);
+  }
+}

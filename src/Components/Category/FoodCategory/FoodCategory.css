@@ -1,0 +1,32 @@
+.food {
+  background-color: var(--red-color);
+  padding: var(--padding);
+  border-radius: calc(var(--border-radius) / 2);
+  transition: var(--transition);
+}
+
+.food-content {
+  background-color: transparent;
+  color: var(--white);
+  border: none;
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-semi-bold);
+  border-radius: calc(var(--border-radius) / 2);
+  padding: 5px var(--padding);
+  transition: var(--transition);
+}
+
+@media only screen and (max-width: 768px) {
+  .food {
+    flex-direction: column;
+  }
+}
+
+.food-content img {
+  width: 20px
+}
+
+.food-btnActive {
+  background-color: var(--white);
+  color: var(--red-color);
+}

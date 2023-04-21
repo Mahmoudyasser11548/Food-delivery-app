@@ -1,0 +1,114 @@
+.hero-content h5 {
+  color: var(--blue-color);
+}
+
+.hero-content h1 {
+  color: var(--blue-color);
+}
+
+.hero-content h1 span {
+  color: var(--red-color);
+  line-height: 50px;
+}
+
+.hero-content>p {
+  color: #777;
+  font-size: var(--font-size-medium);
+  line-height: 30px;
+}
+
+.btns button {
+  border: none;
+  outline: none;
+  padding: calc(var(--padding) / 3) var(--padding);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.order {
+  color: var(--red-color);
+  transition: var(--transition);
+  color: white;
+  background-color: var(--red-color);
+}
+
+.order:hover {
+  background-color: var(--blue-color);
+}
+
+.btns .menu {
+  background-color: transparent;
+}
+
+.btns .menu a {
+  text-decoration: underline;
+  font-size: var(--font-size-medium);
+  font-weight: 100;
+}
+
+.services p {
+  color: var(--blue-color);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.shipping {
+  color: var(--white);
+  border-radius: 50%;
+  background-color: var(--red-color);
+  padding: 5px 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-content {
+    text-align: center;
+  }
+
+  .btns button {
+    padding-left: calc(var(--padding) / 2);
+    padding-right: calc(var(--padding) / 2);
+  }
+
+  .services {
+    flex-direction: column;
+  }
+
+  .hero-img-sec {
+    order: -1;
+  }
+}
+
+.why-content .why-title {
+  color: var(--blue-color);
+}
+
+.why-content .why-title span {
+  color: var(--red-color);
+}
+
+.why .desc {
+  color: #777;
+}
+
+.choose-title {
+  color: var(--blue-color);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.choose-title i {
+  color: var(--red-color);
+}
+
+.choose-list .desc {
+  font-size: var(--font-size-medium);
+}
+
+.testimonial-title,
+.testimonial h2 span {
+  color: var(--red-color);
+}
+
+.testimonial-desc {
+  color: #777;
+  line-height: 30px;
+}

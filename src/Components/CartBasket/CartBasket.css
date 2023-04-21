@@ -1,0 +1,114 @@
+.cart-basket {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.cart-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background: #fff;
+  z-index: 99999;
+  border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
+}
+
+.cart-close {
+  padding: var(--padding);
+}
+
+.cart-close span {
+  border-radius: 50%;
+  background-color: var(--blue-color);
+  padding: 3px 5px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.cart-list {
+  height: calc(100vh - 130px);
+  overflow-y: scroll;
+}
+
+.cart-bottom {
+  background-color: var(--red-color);
+  color: var(--white);
+  padding: var(--padding);
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.cart-bottom button {
+  border: none;
+  padding: 5px var(--padding);
+  border-radius: var(--border-radius);
+}
+
+.cart-bottom button a {
+  text-decoration: none;
+  color: var(--blue-color);
+  font-weight: var(--font-weight-semi-bold);
+  font-size: var(--font-size-normal);
+}
+
+.cart-bottom h6 {
+  font-size: var(--font-size-normal);
+}
+
+.cart-bottom h6 span {
+  font-weight: var(--font-weight-semi-bold);
+  font-size: var(--font-size-medium);
+}
+
+.cart-info img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+
+.cart-product-title {
+  font-size: var(--font-size-normal);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.cart-product-price {
+  font-size: var(--font-size-normal);
+}
+
+.cart-product-price span {
+  font-size: var(--font-size-normal);
+  font-weight: var(--font-weight-semi-bold);
+  color: var(--red-color);
+}
+
+.increase-decrease-btn {
+  background: var(--lightRed-color);
+  padding: 2px 5px;
+  border-radius: calc(var(--border-radius) /2);
+}
+
+.increase-btn,
+.decrease-btn {
+  cursor: pointer;
+}
+
+.delete-btn {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.cart-item {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #fde4e4;
+}
+
+@media only screen and (max-width: 576px) {
+  .delete-btn {
+    font-size: var(--font-size-medium);
+  }
+}
